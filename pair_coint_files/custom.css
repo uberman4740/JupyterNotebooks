@@ -1,0 +1,107 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: "ff-sero-web", 'Open Sans', 'helvetica', 'sans-serif';
+  font-weight: 500;
+  font-style: normal;
+  font-variant-numeric: tabular-nums;
+  -moz-font-feature-settings: "tnum";
+  -ms-font-feature-settings: "tnum";
+  -webkit-font-feature-settings: "tnum";
+  overflow: hidden;
+}
+
+.rendered_html p {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.modal {
+  overflow: hidden
+}
+
+.navbar-right .dropdown-submenu .dropdown-menu {
+  right: auto !important;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+#notebooks {
+  height: 100%;
+}
+
+.header-subtitle {
+  font-size: 16px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #999999;
+  display: inline-block;
+  position: relative;
+  margin-top: -1px;
+}
+
+#refresh_notebook_list {
+  margin-left: 4px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.toolbar-icon {
+  font-size: 1.2em;
+}
+
+/* Share button */
+
+.rendered_html pre, .rendered_html code {
+  background-color: transparent
+}
+
+.next {
+  display: block;
+  margin-top: 38px;
+  float: right;
+}
+
+.next > a {
+  color: #eee;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.next-step-link {
+  color: #bfbfbf;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#back-wrapper {
+  display: inline-block;
+  text-align: center;
+}
+
+#save_widget .back-button {
+  position: relative;
+  padding: 3px;
+}
+
+#save_widget .back-button i{
+  color: #aaaaaa;
+}
+
+#save_widget .back-button:hover i{
+  color: #333333;
+}
+
+#beta-label {
+    line-height: 20px;
+    color: #d80016;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    -webkit-font-smoothing: antialiased;
+}
